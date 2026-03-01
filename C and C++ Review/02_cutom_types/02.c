@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+typedef struct {
+    float x;
+    float y;
+} Point;
+
+int main() {
+    Point p1 = {1.1, 2.5};
+    printf("size of Point: %zu\n", sizeof(Point));
+}
